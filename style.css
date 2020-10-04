@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#title {
+    text-align: center;
+}
+
+#content {
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+}
+
+#submit {
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#object-picker {
+    display: inline-block;
+}
+
+#planet-picker {
+    float: right;
+}
+
+.picker, label, #weight {
+    font-size: 25px;
+    margin-right: 10px;
+}

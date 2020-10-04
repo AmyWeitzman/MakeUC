@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Space Weight</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="content">
+        <h1 id="title">How much do common objects weight on different planets?</h1>
+        <div id="object-picker">
+            <label for="objects">Pick an object:</label>
+            <select name="objects" id="objects" class="picker">
+                <option value="apple">Apple</option>
+                <option value="paperclip">Paperclip</option>
+                <option value="baseball">Baseball</option>
+                <option value="schoolbus">School bus</option>
+                <option value="brick">Brick</option>
+            </select>
+        </div>
+        <div id="planet-picker">
+            <label for="planets">Pick a planet:</label>
+            <select name="planets" id="planets" class="picker">
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="earth">Earth</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+            </select>
+        </div>
+        <br>
+        <button id="submit" type="submit" onclick="getWeight()">Get Weight</button>
+        <div id="results">
+            <p id="weight"></p>
+        </div>
+        </div>
+    </body>
+</html>
